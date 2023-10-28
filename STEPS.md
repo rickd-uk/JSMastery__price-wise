@@ -23,6 +23,8 @@
     https://github.com/adrianhajdin/pricewise.git
     Add favicon.ico to app dir
 
+    
+    npm install react-responsive-carousel
 ``` 
 
 
