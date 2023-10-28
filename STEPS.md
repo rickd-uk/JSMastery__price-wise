@@ -17,6 +17,11 @@
     code .   # open in VSCode
     Remove all from page.tsx
     Use `rafce` # ReactArrowFunctionExport
+   
+    Add components dir > Add  Navbar.tsx
+    DL & add assets dir to public dir
+    https://github.com/adrianhajdin/pricewise.git
+    Add favicon.ico to app dir
 
 ``` 
 
