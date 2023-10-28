@@ -1,6 +1,6 @@
-'use-client';
+'use client';
 
-import 'react-responsive-carousel/lib/styles/carousel.min.css'; // requires a loader
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
 import Image from 'next/image';
 
@@ -14,25 +14,27 @@ const heroImages = [
 
 const HeroCarousel = () => {
   return (
-    <Carousel
-      showThumbs={false}
-      autoPlay
-      infiniteLoop
-      interval={2000}
-      showArrows={false}
-      showStatus={false}
-    >
-      {heroImages.map((image) => (
-        <Image
-          src={image.imgUrl}
-          alt={image.alt}
-          height={484}
-          width={484}
-          className='object-contain'
-          key={image.alt}
-        />
-      ))}
-    </Carousel>
+    <div className='hero-carousel'>
+      <Carousel
+        showThumbs={false}
+        //autoPlay
+        infiniteLoop
+        //interval={2000}
+        showArrows={false}
+        showStatus={false}
+      >
+        {heroImages.map((image) => (
+          <Image
+            src={image.imgUrl}
+            alt={image.alt}
+            height={484}
+            width={484}
+            className='object-contain'
+            key={image.alt}
+          />
+        ))}
+      </Carousel>
+    </div>
   );
 };
 

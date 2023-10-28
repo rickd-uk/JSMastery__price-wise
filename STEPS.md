@@ -25,6 +25,8 @@
 
     
     npm install react-responsive-carousel
+
+    53:48
 ``` 
 
 
