@@ -12,6 +12,11 @@
     App Router      Y
     import alias    N
 
+    npm run dev
+
+    code .   # open in VSCode
+    Remove all from page.tsx
+    Use `rafce` # ReactArrowFunctionExport
 
 ``` 
 
